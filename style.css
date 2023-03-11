@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 10vh;
+    color: #AE9E9A;
+}
+
+button{
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 1.9vh;
+    padding: 2vh;
+    width: 30vh;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 10px 10px 60px black;
+}
+
+img{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
